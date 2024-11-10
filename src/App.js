@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import SignUp from './pages/SignUp';
+import Login from './pages/Login';
+import AdditionalDetails from './pages/AdditionalDetails';
+import Dashboard from './pages/Dashboard'; 
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <LanguageSwitcher />
+      <Routes>
+        <Route path="/" element={<Login />} /> {/* Set Login as the default */}
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/additional-details" element={<AdditionalDetails />} />
+        <Route path="/dashboard" element={<Dashboard />} /> {/* Add Dashboard route */}
+      </Routes>
+    </Router>
   );
 }
-
 export default App;

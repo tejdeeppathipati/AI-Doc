@@ -1,0 +1,15 @@
+{
+    "welcomeMessage": "AI डॉक्टर में आपका स्वागत है",
+    "signIn": "साइन इन करें",
+    "signUp": "साइन अप करें",
+    "getStarted": "शुरू करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "rememberMe": "मुझे याद रखें",
+    "forgotPassword": "क्या आप पासवर्ड भूल गए?",
+    "or": "या",
+    "signInWithGoogle": "Google के साथ साइन इन करें",
+    "signInWithFacebook": "Facebook के साथ साइन इन करें",
+    "dontHaveAccount": "क्या आपके पास खाता नहीं है? साइन अप करें"
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "welcomeMessage": "Bienvenido a AI Doctor",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "getStarted": "Comenzar",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "rememberMe": "Recuérdame",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "or": "o",
+    "signInWithGoogle": "Iniciar sesión con Google",
+    "signInWithFacebook": "Iniciar sesión con Facebook",
+    "dontHaveAccount": "¿No tienes una cuenta? Regístrate"
+  }
+  
